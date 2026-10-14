@@ -91,44 +91,44 @@ h2{font:600 clamp(1.5rem,3vw,2rem)/1.1 var(--display);letter-spacing:-.02em;marg
    Change "featured" on any entry to move it between the two sections. */
 const TOURS = [
   {name:"Yeah Yeah Yeahs", role:"FOH", what:"Multiple international tours", when:"2022–2026", end:2026, featured:true, photo:""},
-  {name:"Fcukers", role:"FOH", what:"2026 tour dates, including support for Rufus Du Sol and Harry Styles, plus headline shows", when:"2026", end:2026, featured:true, photo:""},
+  {name:"Fcukers", role:"FOH", what:" most 2026 tour dates, including support for Rufus Du Sol and Harry Styles", when:"2026", end:2026, featured:true, photo:""},
   {name:"Tove Lo", role:"Monitors", what:"Festivals and guest appearances", when:"2024, 2026+", end:2026, featured:true, photo:""},
-  {name:"Tears for Fears", role:"Monitors", what:"Las Vegas residencies", when:"2024–2025", end:2025, featured:true, photo:""},
+  {name:"Tears for Fears", role:"Monitors", what:"Las Vegas residency", when:"2024–2025", end:2025, featured:true, photo:""},
   {name:"Rilo Kiley", role:"Monitors", what:"Tour dates", when:"2025+", end:2025, featured:true, photo:""},
-  {name:"Mac DeMarco", role:"FOH / TM", what:"Festival dates and a headline tour of Europe", when:"2020+, 2025", end:2025, featured:true, photo:""},
+  {name:"Mac DeMarco", role:"FOH / TM", what:" Fill in for festival dates 20' and an EU Headline tour in 26'", when:"2020 - 2025", end:2025, featured:true, photo:""},
   {name:"Dom Dolla", role:"FOH", what:"Clubs, arenas, and festivals", when:"2024", end:2024, featured:true, photo:""},
   {name:"Tegan and Sara", role:"Monitors", what:"US and Canada tours, headline and support for Portugal. The Man", when:"2024", end:2024, featured:true, photo:""},
   {name:"Chet Faker", role:"FOH", what:"World tours, festivals, and headline shows", when:"2015–2020", end:2020, featured:true, photo:""},
   {name:"Charli XCX", role:"Monitors", what:"Live streams and pre-recorded broadcast mixes", when:"2020", end:2020, featured:true, photo:""},
   {name:"Louis Tomlinson", role:"FOH", what:"US clubs, arenas, and festivals, plus TV performances", when:"2019", end:2019, featured:true, photo:""},
-  {name:"Lux Prima (Danger Mouse and Karen O)", role:"FOH", what:"Two nights at the Ace Hotel Theater, Los Angeles", when:"", end:0, featured:true, photo:""},
+  {name:"Lux Prima <small>(Danger Mouse and Karen O)</small>", role:"FOH", what:"Two nights at the Ace Hotel Theater, Los Angeles", when:"", end:0, featured:true, photo:""},
 
   {name:"Washed Out", role:"FOH", what:"Festivals and headline tours", when:"2023–2024", end:2024},
-  {name:"Bandits of the Acoustic Revolution / Streetlight Manifesto", role:"FOH", what:"FOH mixing, recording, and post-production mixing; select shows with a full orchestra", when:"2023", end:2023},
-  {name:"Todd Terje and The Olsens", role:"FOH", what:"North American festivals, US headline shows, Australian festivals and headline shows", when:"2016", end:2016, featured:true, photo:""},
+  {name:"Bandits of the Acoustic Revolution / Streetlight Manifesto", role:"FOH", what:"FOH mixing, recording, live album mixing for shows with a full orchestra", when:"2023", end:2023},
+  {name:"Todd Terje and The Olsens", role:"FOH", what:"North American festivals, US headline shows and Australian festivals", when:"2016", end:2016, featured:true, photo:""},
   {name:"Local Natives", role:"FOH", what:"Multiple festival dates and music video shoots", when:"2020", end:2020},
-  {name:"HEALTH", role:"FOH", what:"", when:"2019", end:2019},
+  {name:"HEALTH", role:"FOH", what:"North American dates", when:"2019", end:2019},
   {name:"Mount Kimbie", role:"FOH", what:"US tour and summer festivals in the US and Europe", when:"2018", end:2018},
-  {name:"Børns", role:"Monitors", what:"North American tour, fall 2018", when:"2018", end:2018, featured:true, last:true, photo:""},
-  {name:"Oh Wonder", role:"Monitors", what:"", when:"2017", end:2017},
-  {name:"Broods", role:"FOH", what:"", when:"2017", end:2017},
-  {name:"Cymbals Eat Guitars", role:"FOH", what:"", when:"2013–2017", end:2017},
-  {name:"Bonobo (DJ)", role:"TM", what:"", when:"2016", end:2016},
-  {name:"The Drums", role:"Monitors", what:"", when:"2016", end:2016},
+  {name:"Børns", role:"Monitors", what:"US headline tour", when:"2018", end:2018, featured:true, last:true, photo:""},
+  {name:"Oh Wonder", role:"Monitors", what:"US Headline tour", when:"2017", end:2017},
+  {name:"Broods", role:"FOH", what:"Festival dates", when:"2017", end:2017},
+  {name:"Cymbals Eat Guitars", role:"FOH", what:"Club and Theater shows", when:"2013–2017", end:2017},
+  {name:"Bonobo (DJ)", role:"TM", what:"Festival one-offs", when:"2016", end:2016},
+  {name:"The Drums", role:"Monitors", what:"Headline shows and festivals", when:"2016", end:2016},
   {name:"Oneohtrix Point Never", role:"FOH / TM", what:"North American tour", when:"2015–2016", end:2016, featured:true, photo:""},
   {name:"Antemasque (with Travis Barker)", role:"FOH / TM", what:"US headline tour", when:"2015", end:2015},
   {name:"Flume", role:"FOH", what:"Festival dates", when:"2015", end:2015, featured:true, photo:""},
-  {name:"I Break Horses", role:"FOH / TM", what:"", when:"2012", end:2012},
-  {name:"Surfer Blood", role:"FOH", what:"", when:"2009–2012", end:2012},
-  {name:"The Pains of Being Pure at Heart", role:"FOH", what:"", when:"2009–2013", end:2013}
+  {name:"I Break Horses", role:"FOH / TM", what:"US Headline tour", when:"2012", end:2012},
+  {name:"Surfer Blood", role:"FOH", what:"Headline tours and Festivals and support for Death Cab For Cutie", when:"2009–2012", end:2012},
+  {name:"The Pains of Being Pure at Heart", role:"FOH", what:"Many US Headline tours", when:"2009–2013", end:2013}
 ];
 
 const VENUES = [
-  {n:"The Echo / Echoplex", p:"Los Angeles, CA", d:"FOH and monitors, 250 and 800 capacity rooms on Sunset Blvd."},
-  {n:"Congress Theater", p:"Chicago, IL", d:"Monitor engineer, historic 5,000 capacity theater."},
-  {n:"Teragram Ballroom", p:"Los Angeles, CA", d:"Multitrack recording engineer for shows, 2016–2017."},
-  {n:"Sound Investment AV", p:"Chicago, IL", d:"A1 and A2 engineer for corporate events, FOH at WTF Festival 2013, and system tech in New York."},
-  {n:"Chrome Attic Studios", p:"Crystal Lake, IL", d:"In-house engineer and producer on 20+ albums, 2010–2014."}
+  {n:"The Echo / Echoplex", p:"Los Angeles, CA", <br> d:"FOH and monitors, 250 and 800 capacity rooms on Sunset Blvd."},
+  {n:"Congress Theater", p:"Chicago, IL", <br> d:"Monitor engineer, historic 5,000 capacity theater."},
+  {n:"Teragram Ballroom", p:"Los Angeles, CA", <br> d:"Multitrack recording engineer for shows, 2016–2017."},
+  {n:"Sound Investment AV", p:"Chicago, IL", <br> d:"A1 and A2 engineer for corporate events, FOH at WTF Festival 2013, and system tech in New York."},
+  {n:"Chrome Attic Studios", p:"Crystal Lake, IL", <br>d:"In-house engineer and producer on 20+ projects, 2010–2014."}
 ];
 
 const $=id=>document.getElementById(id);
